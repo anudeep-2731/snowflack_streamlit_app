@@ -9,6 +9,6 @@ streamlit.text("🥣dosa")
 
 myfruit_list=pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 
-streamlit.multiselect("Pick some fruites:",list(myfruit_list.index))
+streamlit.multiselect("Pick some fruites:",list(myfruit_list.Fruit))
 
 streamlit.dataframe(myfruit_list)
