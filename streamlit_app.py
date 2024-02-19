@@ -1,5 +1,6 @@
 import streamlit
 import pandas as pd
+import snowflake.connecter
 
 streamlit.title("Anudeep Basva")
 
